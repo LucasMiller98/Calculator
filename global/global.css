@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+  outline: none;
+}
+
+:root {
+  font-size: 62.5%; /* 1rem = 10px */
+  --bg-calculator: #2C2C2C;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(#807ECE, #8E7ECE);
+}
+
+button {
+  cursor: pointer;
+}
